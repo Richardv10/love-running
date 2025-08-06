@@ -85,12 +85,33 @@ nav {
     font-size: 2rem;
 }
 
+/* main section styles */
 
 main {
     background-color: lightblue;
     flex: 1 0 auto;
+    margin-top: 47px;
     /* flex allows the main section to grow and fill the available space and push down footer */
 }
 footer {
     background-color: orange;
+}
+
+/* media queries: tablets and larger {768px and up} */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding: 1rem;
+    }
+  #menu > li {
+    display: flex;
+  padding-left: 1rem;
+} 
+.nav-toggle-label {
+    display: none;
+  }
+ 
 }
