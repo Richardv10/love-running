@@ -15,11 +15,12 @@
     box-sizing: border-box;
 }
 
+/* general styles */
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* generic styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -39,7 +40,7 @@ header a {
     color: inherit;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -58,6 +59,22 @@ h1 {
 }
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+/*final rgba value sets opacity */
+#cover-text {
+    background-color: rgba(241, 109, 107, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px; 
+
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: white;
 }
 
 /* nav bar styles with dropdown */
@@ -99,7 +116,7 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
-
+    position: relative;
 }
 /* footer */
 
