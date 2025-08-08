@@ -88,10 +88,18 @@ nav {
 /* main section styles */
 
 main {
-    background-color: lightblue;
     flex: 1 0 auto;
     margin-top: 47px;
     /* flex allows the main section to grow and fill the available space and push down footer */
+}
+
+/* hero styles */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+
 }
 /* footer */
 
