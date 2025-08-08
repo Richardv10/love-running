@@ -167,8 +167,14 @@ main {
     /* push main content down for larger header */
     margin-top: 100px;
   }
-}
 
+/* hero */
+
+#cover-text {
+    width: 300px;
+    right: 300px;
+}
+}
 /* media queries: bigger devices {more than 992px} */
 @media screen and (min-width: 992px) {
     #menu a:hover {
