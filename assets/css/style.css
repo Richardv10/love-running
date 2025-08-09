@@ -131,6 +131,12 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+#times {
+  background-image: url(../images/dublin-city.webp);
+  display: flex;
+  
+}
 /* hero styles */
 
 #hero {
