@@ -115,19 +115,17 @@ main {
 /*signup form styles*/
 
 #signup {
-  background-image: url("assets\images\signup-image.webp")
+  background-image: url("../images/signup-image.webp");
   background-size: cover;
   background-position: 75%;
   flex-grow: 1;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 20px 10% 0 10%;
 }
 
 #signup-form {
-  color: #ffffff;
-  background-color: rbga(60, 60, 60, 0.6);
-  padding: 30px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
 }
 #signup-form > h2 {
   color: #fafafa;
